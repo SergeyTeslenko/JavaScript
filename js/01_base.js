@@ -138,3 +138,140 @@
 // console.log(key);
 
 // person.greet();
+
+// const options = {
+// 	name: 'test',
+// 	width: 1024,
+// 	heigh: 1024,
+// 	colors: {
+// 		border: 'black',
+// 		bg: 'red'
+// 	},
+// 	makeTest: function () {
+// 		console.log("test");
+
+// 	}
+// };
+
+// options.makeTest();
+
+// const {
+// 	border,
+// 	bg
+// } = options.colors;
+// console.log(border);
+
+// console.log(Object.keys(options).length);
+
+// console.log(options["colors"]["border"]);
+
+// delete options.name;
+
+// console.log(options);
+
+// let counter = 0;
+
+// for (let key in options) {
+// 	if (typeof (options[key]) === 'object') {
+// 		for (let i in option[key]) {
+// 			console.log('Свойство ${i} имеет значение ${options[key][1]}');
+// 		} else {
+// 			console.log('Свойство ${key} имеет значение ${options[key]}');
+// 		}
+// 	}
+
+// 	console.log('Свойство ${key} имеет значение ${options[key]}');
+//  counter++;
+// }
+// console.log(counter);
+
+// arr.forEach(function (item, i, arr) {
+//   console.log(`${i}: ${item} внутри массивва ${arr}`);
+// });
+
+// arr.pop(); методы
+// arr.push(10);
+// console.log(arr);
+
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+// for (let value of arr) {
+//   console.log(value);
+// }
+
+// const str = prompt("", "");
+// const products = str.split(", ");
+// products.sort();
+// console.log(products.join("; "));
+
+// function copy(mainObj) {
+//   let objCopy = {};
+//   let key;
+//   for (key in mainobj) {
+//     objCopy[key] = mainObj[key];
+//   }
+
+//   return objCopy;
+// }
+
+// const number = {
+//   a: 2,
+//   b: 5,
+//   c: {
+//     x: 7,
+//     y: 4,
+//   },
+// };
+
+// const numbers = copy(numbers);
+
+// newNumbers.a = 10;
+// console.log(newNumbers);
+//===========================================================================
+
+// //To String
+// //1
+// console.log(typeof (String(null)));
+// console.log(typeof (String(4)));
+
+// //2
+// console.log(typeof (5 + ''));
+// const num = 5;
+// console.log("https://vk.com/catalog/" + num);
+
+// const fontSize = 26 + 'px';
+
+// //To Number 
+// //1
+// console.log(typeof (Number('4')));
+// //2
+// console.log(typeof (+'4'));
+// //3
+// console.log(typeof (parseInt("15px", 10)));
+
+// let answ = +prompt("Hello", "");
+
+// //To Booolean
+// // 0, '', null, underfind, NaN;
+// let swetcher = null;
+
+// if (switcher) {
+// 	console.log("Working ...");
+
+// }
+// switcher = 1;
+// if (switcher) {
+// 	console.log("Working ...");
+
+// 	//2
+// 	console.log(typeof (Boolean(4)));
+// 	//3
+// 	console.log(typeof (!!!4));
+
+//====================================================================
+// let x = 5;
+// alert(x++);
+// [ ] + false - null + true 
+console.log(typeof ("" + false));
